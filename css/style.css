@@ -1,0 +1,1619 @@
+/*Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    
+}
+h1 {
+    color: #050515;
+    font-size: 48px;
+    font-weight: 600;
+}
+h2 {
+    font-weight: 500;
+    color: #212529;
+    padding: 20px 0;
+}
+h3 {
+    font-size: 42px;
+    font-weight: 600;
+}
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #212529;
+    list-style: none;
+    line-height: 1.5;
+}
+.h5 {
+    font-weight: 500;
+    font-size: 25px;
+}
+p {
+    color: #7f8c8d;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding: 1rem 0.1rem;
+}
+.bold {
+    font-weight: bold;
+}
+
+/*Primary Container*/
+.primary_container {
+    padding: 1.5rem 1.5rem;
+    background-color: #d9d9d9fe;;
+}
+.container-primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.ul, .primary-links {
+    align-items: center;
+}
+.primary-links li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center; 
+}
+.primary-links a {
+    color: #232323d8;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+.primary-links a:hover {
+    background-color: #efefef;
+    border-radius: 5px;
+}
+.sociais button {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: #858585;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.sitebuilder-element {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.elements-right,.getsupport-btn,
+.login-btn,.fa-globe {
+    display: flex;
+    height: 26px;
+    line-height: 26px;
+    justify-content: center;
+    margin-inline: 1rem;
+}
+.getsupport-btn, .login-btn,
+.sociais, .fa-globe {
+    padding-inline: 20px;
+}
+.fa-arrow-up-right-from-square {
+    transform: scale(0.7);
+}
+.fa-globe {
+    color: #848484fe;
+    cursor: pointer;
+}
+.login-btn {
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-btn:hover {
+    background-color: rgba(239, 239, 239, 0.536);
+    border-radius: 5px;   
+}
+.getsupport-btn {
+    color: #848484fe;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.getsupport-btn:hover {
+    background-color: rgba(239, 239, 239, 0.536);
+    border-radius: 5px; 
+
+}
+.sociais button i {
+    box-sizing: center;
+    font-size: small;
+    color: #d9d9d9;
+}
+
+/*Header*/
+.header_container {
+    padding: 1.5rem 1.5rem;
+    background-color: #e6e6e6fe;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-header nav a {
+    text-decoration: none;
+    padding: 13px;
+    color: #232323;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-inline: 16px;
+}
+.container-header nav a:hover {
+    background-color: #efefef;
+    color: #000000;
+    border-radius: 5px;
+}
+.logo {
+    cursor: pointer; 
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu nav a {
+    text-decoration: none;
+    padding: 13px;
+    color: #232323;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+    margin-inline: 16px;
+}
+.menu nav a:hover {
+    background-color: #efefef;
+    color: #000000;
+    border-radius: 5px;
+}
+.header-get-btn {
+    padding: 14px 38px;
+    font-weight: 600;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
+    transition: background .3s;
+}
+.header-get-btn a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.header-get-btn:hover {
+    background-color: #4363C5;
+    color: #fff;
+}
+
+.fixed-help img {
+    width: 40%;
+}
+.fixed-help {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #112733;
+    position: fixed;
+    top: 920px;
+    bottom: 0;
+    right: 20px;
+    text-align:center;
+    align-content: center;
+}
+
+/*Main Banner*/
+.main-banner {
+    background-color: #f2f3f3fe;
+}
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.div-video {
+    width: 180%;
+    padding-top: 45.25%;
+    position: relative;
+}
+.div-video video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+}
+.main-video {
+    display: flex;
+    background-color: #f2f3f3fe;
+    padding: 4rem 17rem;
+    width: 100%;
+    margin: auto;
+    gap: 2%;
+    align-items: center;
+}
+.main-h1 p {
+    padding: 8px 0 0 8px;
+}
+.main-h1 span  {
+   font-weight: 700;
+   color: #000000;
+   font-size: 20px;
+}
+
+/*Botão Get Stared Today*/
+.get-btn {
+    padding: 14px 38px;
+    font-weight: 600;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
+    transition: background .3s;
+}
+.get-btn a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.get-btn:hover {
+    background-color: #4363C5;
+    color: #fff;
+}
+
+/*Banner Builderall Marketing*/
+.builderall-marketing img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.builderall-marketing {
+    background-color: #2560df;
+}
+.builderall-mobile-marketing {
+    display: none;
+}
+ 
+/*Start by getting your custom domain*/
+.searchdomain-conatiner {
+    height: 26rem;
+    font-size: 40px;
+    align-content: center;
+    text-align: center;
+    background-color: #2560df;
+}
+.searchdomain-conatiner h3 {
+    color: #efefef;
+    font-weight: 500;
+}
+.searchdomain-conatiner p {
+    color: #efefef;
+    font-size: 16px;
+    justify-content: center;
+    display: inline-block;
+    margin: 0;
+    padding: 1rem;
+}
+.searchdomain-p {
+    color: #efefef;
+    font-size: 16px;
+    padding: 20px 0;  
+}
+.includes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fa-arrow-up {
+    rotate: 45deg;
+    padding: 7px 5px;
+    font-size: 14px;
+}
+.fa-circle {
+    width: 10px;
+    height: 10px;
+    color: #01d4b9;
+    margin-right: 16px; 
+}
+.fa-circle .searchdomain-p {
+    margin: 0;
+    padding: 0;
+}
+.searchdomain-conatiner input {
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.searchdomain-conatiner input[type="text"] {
+    width: 40%;
+    padding: 16px;
+    font-size: 16px;
+    margin-top: 40px ;
+    margin-right :24px;
+    margin-bottom: 25px;
+}
+.searchdomain-conatiner input[type="submit"] {
+    background-color:transparent;
+    border: 1px solid #fff;
+    padding: 16px 90px;
+    font-weight: 300;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.searchdomain-conatiner input[type="submit"]:hover {
+    opacity: 1;
+    background-color: #01d4b9;
+    border-color: #007bff;
+}
+.getplan-btn button {
+    background-color:transparent;
+    border: none;
+    padding: 10px;
+    color: #f2f2f2;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.getplan-btn button:hover {
+    opacity: 1;
+    transition: 0.5s;
+    background-color: #ffffff50;
+    color: #f2f2f2;  
+}
+.fa-solid.fa-arrow-up-right-from-square {
+    margin: 8px;
+}
+
+/*Grow your business with Builderall*/
+.grow-your-business {
+    justify-self: anchor-center;
+    padding: 4rem 2rem 4rem;
+    max-width: 1065px;
+    margin: 0 auto;
+}
+.grow-your-container {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 8rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #f2f2f2fe;
+}
+.title-subtitle-grow {
+    white-space-collapse: preserve-breaks;
+}
+.grow-your-business .getmain-btn {
+    margin-top: 20px;
+}
+.button-grow p {
+    color: #000;
+    padding: 8px 0 0 5px; 
+}
+.button-grow p span {
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+}
+
+/*01 - Image dos containers 1 á 6*/
+.img-containers img {
+    min-height: 100%;
+}
+
+/*01 - Easily Creates*/
+.easily-container {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 4rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    flex-flow: row-reverse;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.title-easily {
+    white-space-collapse: preserve-breaks;
+}
+
+.default-number {
+    font-weight: 300;
+}
+
+/*02 - Powerful built-in email platform*/
+.powerful-container {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 4rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.title-powerful {
+    white-space-collapse: preserve-breaks;
+}
+
+/*03 - Schedule appointments with Booking*/
+.schedule-appointments-container {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 4rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-flow: row-reverse;
+}
+.title-schedule-appointments {
+    white-space-collapse: preserve-breaks;
+}
+
+/*04 - Connect with customers on Webinar*/
+.connect-customers-container {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 4rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.title-connect-customers {
+    white-space-collapse: preserve-breaks;
+}
+
+/*05 - Teach through the most advanced E-learning available*/
+.teach-through-container {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 4rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-flow: row-reverse;
+}
+.title-teach-through-appointments {
+    white-space-collapse: preserve-breaks;
+}
+
+/*06 - Automate support with Chatbot*/
+.automate-support-container {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 4rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.title-automate-support {
+    white-space-collapse: preserve-breaks;
+}
+
+/*Brands*/
+.brands {
+   background-color: #f2f3f3fd;
+   text-align: -webkit-center;
+}
+.brands img {
+    max-width: 60%;
+}
+
+/*No more duct-taping tools together*/
+.no-more-duct-taping {
+    background-color: #1e1f23fe;
+}
+.no-more-container {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 4rem;
+    max-width: 930px;
+    padding: 5rem 2rem;
+    justify-self: anchor-center;
+}
+.img-items img {
+    max-width: 100%;  
+}
+.img-items {
+    justify-self: center;
+}
+.no-more-container h3 {
+    color: #fff;
+}
+.no-more-container h4 {
+    width: 100%;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.no-more-container p {
+    padding: 4px 0 0 4px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/*Endless possibilities in a single dashboard*/
+.endless-possibilities {
+    background-color: #f2f3f3fd;
+    text-align: center;
+    justify-items: center;
+    padding: 4rem 2rem 4rem;
+}
+.texts-container {
+    white-space-collapse: preserve-breaks;
+    text-align: -webkit-left;
+    max-width: 740px;
+}
+.texts-container h3 { 
+    width: 64%;
+}
+.texts-container h5 {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: -webkit-left;
+    padding-bottom: 2rem;
+}
+.endless-possibilities .line {
+    border-top: 1px solid #bdbdbd;
+    width: 47rem;
+    max-width: -webkit-fill-available;
+}
+
+.tab-items li {
+    display: inline-block;
+    margin-right: 32px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 1rem;
+}
+.img-builderall-builder img {
+    width: 100%;
+}
+.tab-items li:hover {
+    color: #2560df;
+    cursor: pointer;
+}
+.tools-btn {
+    background-color: #007bff;
+    padding: 28px 60px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    transition: background .3s;
+}
+.tools-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+.tools-btn:hover { 
+    background-color: #4363C5;
+}
+
+/*Website Templates Ready to Go Live in 3 Clicks!*/
+.go-live {
+    background-color: #f2f2f2fe;
+    padding: 4rem 0 0;
+    text-align: center;
+}
+.golive-titleand-btn {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 3rem;
+    max-width: 900px;
+    justify-self: center;
+    padding: 0rem 2rem 0;
+}
+.go-live h4 {
+    text-wrap-style: balance;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.go-live h3 {
+    color: #000000;
+}  
+.golive-titleand-btn p {
+    color: #272727;
+    font-weight: 800;
+    padding: 8px 0 0 5px;  
+}
+.img-golive a {
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 18px;
+    color: #007bff;
+    transition: 0.3s;
+}
+.img-golive a:hover {
+    color: #4363C5;
+    cursor: pointer;
+    border: none;
+}
+.img-container {
+    text-align: -webkit-left;
+    justify-self: center;
+    padding: 40px;
+}
+.img-container img {
+    width: 100%;
+}
+
+/*Better tools, better results in your business*/
+.better-tools {
+    background-color: #f2f2f2fe;
+    text-align: center;
+    padding: 60px;
+}
+
+/*Increase your reach*/
+.increase-your {
+    background-color: #f2f2f2fe;
+    text-align: center;
+}
+.increase-your-titleand {
+    display: flex;
+    text-align: -webkit-left;
+    gap: 4rem;
+    justify-self: center;
+    padding: 2rem;
+}
+.increase-your-titleand h3 { 
+    font-weight: 400;
+    font-size: 35px;
+    width: 50%;
+    max-width: 38%;
+    text-align: left;
+}
+.increase-your-titleand h4 { 
+    max-width: 500px;
+}
+.separator {
+    background-color: #f2f2f2fe;
+    padding: 0 0 40px;
+}
+.line {
+    border-top: 1px solid #7e7e84;
+    width: 60%;
+    margin: 0 auto;
+}
+.sub-line {
+    border: 4px solid #0360e3;
+    color: #bbb;
+    background-color: #fff;
+    width: 4%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -4px;
+    border-radius: 20px;
+}
+
+/*Lower your cost*/
+.lower-your-titleand {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 4rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.lower-your {
+    background-color: #f2f2f2fe;
+    text-align: center;
+}
+.lower-your-titleand h3 { 
+    font-weight: 400;
+    font-size: 35px;
+    width: 50%;
+    max-width: 38%;
+    text-align: left;
+}
+.text-right h4 { 
+    max-width: 500px;
+}
+.separator {
+    position: relative;
+    background-color: #f2f2f2fe;
+    padding: 0 0 40px;
+}
+.line {
+    border-top: 1px solid #7e7e84;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.sub-line {
+    border: 4px solid #0360e3;
+    color: #bbb;
+    background-color: #fff;
+    width: 4%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -4px;
+    border-radius: 20px;
+}
+
+/*Measure & optimize your results*/
+.measure-optimize {
+    background-color: #f2f2f2fe;
+}
+.measure-optimize-titleand {
+    display: flex;
+    justify-content: center;
+    text-align: -webkit-left;
+    gap: 4rem;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.measure-optimize-titleand h3 { 
+    font-weight: 400;
+    font-size: 35px;
+    width: 50%;
+    max-width: 38%;
+    text-align: left;
+}
+.text-right h4 { 
+    max-width: 500px;
+}
+
+/*Join over*/
+.left-right-container {
+    display: flex; 
+}
+.left-container {
+    align-content: center;
+    background-color: #000;
+    width: 100%;
+    padding: 1rem;
+    justify-items: right;
+}
+.left-container h3 {
+    color: #fff;
+    padding-bottom: 20px;
+    max-width: 24rem;
+}
+.left-container p {
+    padding: 8px 0 0 5px;
+    color: #fff;
+    font-weight: 700;
+}
+.right-container {
+    background-color: #03d1b6;
+    width: 100%;
+}
+
+/*Find the right plan for your business / Plans*/
+.plans_details_item_popular {
+    position: absolute;
+    top: 17px;
+    left: 50%;
+    font-size: 0.7em;
+    display: flex;
+    font-weight: bold;
+    background: #ffffff;
+    border: 1px solid #d0d0d0;
+    margin: auto;
+    padding:2px 8px;
+    transform: translateX(-50%);
+}
+.plans_details_item_popular_img {
+    position: absolute;
+    width: 30px;
+    top: -7px;
+    left: 10px;
+    background: #ffffff;
+}
+.plans_details_item_popular_text {
+    margin-top: -15px;
+    margin-bottom: -14px;
+    margin-left: 40px;
+    white-space: nowrap;
+    font-weight: 700;
+    color: #212528;
+}
+.pricing-container {
+   text-align: center;
+   padding: 1rem;
+}
+.pricing-container h3 {
+   padding: 1rem 0;
+}
+.plan-name {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 41px;
+}
+.item_subTitle {
+    font-size: 0.7em;
+    font-weight: 600;
+    margin-top: -11px;
+    min-height: 17px;
+}
+.price_symbol, .month { 
+    font-size: 14px;
+    font-weight: 600;
+    padding: .8rem 0;
+    margin-top: auto;
+    color: #212529;
+}
+.price_amount strong {
+    font-size: 64px;
+    padding: 0;
+    color: #263B5E;
+    font-weight: 600;
+}
+.plans-container {
+    display: flex;
+    justify-self: center;
+    padding: 1rem;
+    width: 80%;
+    justify-content: center;
+}
+.plan {
+    position: relative;
+    min-width: 20%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 30px 15px;
+    box-shadow: 0px 0px 10px rgba(37, 96, 223, 0.1);
+    text-align: center;
+    max-width: 250px;
+    background-color: #ffffff;
+}
+.plan li {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+.plan .price {
+    display: flex;
+    justify-content: center;
+}
+.plan_btn_blue {
+    width: 100%;
+}
+.btn_blue {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 16px;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #ffffff;
+    background: rgba(37, 96, 223, 0.996);
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+.btn_blue:hover{
+    background-color: rgba(22, 60, 141, 0.996);
+}
+.desc_item img {
+    width: 1.2rem;
+    margin: auto 0;
+}
+.desc_item p {
+    padding: .8rem .4rem;
+    color: #212528;
+}
+.plans_details_item_desc {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    margin: 0px 18px;
+    margin-top: 2rem;
+    min-height: 235px;
+    text-align: left;
+    font-weight: 500;
+}
+.plans_details_item_desc_tools {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    margin: 0px 18px;
+    margin-top: 2rem;
+    min-height: 235px;
+    text-align: left;
+    font-weight: 500;
+}
+
+/*With over 100,000 happy users - Rever -*/ 
+.recommendation-container {
+    background-color: #1e1f23fe;
+    padding: 5rem 0;
+    color: #fff;
+    text-align: center;
+}
+.recommendation-item {
+    width: 48%;
+    justify-self: center;
+}
+.recommendation-item p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1em;
+    width: 32em;
+}
+.quotation-marks {
+    display: flex;
+    justify-self: center;
+    position: relative;
+    justify-content: center;
+   max-width: 128%;
+}
+.markrs-left {
+    font-size: 170px;
+    font-family: ui-monospace;
+    position: absolute;
+    left: -74px;
+    font-weight: 600;
+}
+.markrs-rigth {
+    font-size: 170px;
+    font-family: ui-monospace;
+    position: absolute;
+    right: -39px;
+    text-emphasis-style: none;
+    padding: 55px 0 0;
+    font-weight: 600;
+}
+.recommendation-container h5 {
+    font-size: 16px;
+    padding: 10px 0 0;
+    font-weight: 400;
+}
+
+/*Build 7 figure businesse*/
+.build-seven-container {
+    background-color: #f2f2f2fe;
+    padding: 2rem 0;
+    color: #000;
+    justify-items: center;
+}
+.build-seven-item p {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+    text-align: center;
+}
+.build-seven-item {
+    text-align: center;
+    max-width: 1000px;
+    white-space-collapse: preserve-breaks;
+    padding: 2rem 2rem;
+    place-items: anchor-center;
+    justify-self: center;
+}
+.btn-cta-getmain p {
+    font-weight: 400;
+}
+.build-seven-container .btn-cta-getmain p {
+    padding: 8px 0 0 5px;
+    color: #000;
+    font-weight: 500;
+}
+
+/*Frequently asked questions*/ 
+.questions-container {
+    justify-content: center;
+    display: flex;
+    padding: 2rem 1rem 2rem;
+    gap:4rem
+}
+.build-queations h3 {
+    max-width: 16rem;
+}
+.items-questions-conatiner p {
+    border-radius: 20px;
+    background: rgba(245, 249, 252, 0.5);
+    border: 10px solid rgba(255, 255, 255, 0.996) !important;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    display: grid;
+}
+.list-question p:hover {
+    background-color: #3289e6;
+    color: #f2f2f2;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.items-questions-conatiner p {
+    padding: 25px;
+    font-weight: 700;
+}
+
+/*Footer*/
+.footer {
+    background-color: #f2f2f2fe;
+}
+.footer-container { 
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1024px;
+    justify-self: center;
+}
+.sociais-contact{
+   display: flex;
+    gap: 1rem;
+}
+.about-builder-footer p {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: #212529;
+}
+.about-builder-footer .bold {
+    color: #212529;
+}
+.footer-links {
+    display: flex;
+    gap: 1rem;
+}
+.menu-component li {
+    list-style: none;
+    padding: 1rem;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.menu-component li:hover {
+    background-color: #f7f8f8;
+    border-radius: 6px;
+}
+.menu-component a {
+    text-decoration: none;
+    color: #000;
+    white-space: pre;
+    padding: 20px 0;
+}
+.privacy-cookie a {
+    display: inline-grid;
+    padding: 10px 10px 0;
+}
+.privacy-cookie {
+    vertical-align: 10px
+}
+.privacy-cookie a img:hover {
+    filter: brightness(0.7) saturate(0.8);
+    transition: opacity 0.3s ease;
+}
+.sociais-footer {
+   text-align: center;
+}
+.sociais-footer button  {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: #18191e;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: 5px;
+}
+.sociais-footer button i {
+    font-size: small;
+    color: #d9d9d9;
+}
+.questions-comments p {
+    padding: 0;
+    margin: 0;
+    color: #212529;
+    font-size: 13px;
+}
+.questions-comments span {
+color: #212529;
+}
+
+
+/* ---- Responsividade ---- */
+
+
+/* Small laptops 1024px */
+
+@media screen and (max-width:1024px) {
+    html, body {
+        overflow-x: hidden;
+        overflow-y: scroll
+    }
+
+    /*Find the right plan for your business / Plans*/
+    .plans-container {
+        width: 100%;
+    }
+}
+
+/* Small laptops landscape max-width 906px*/
+@media only screen and (max-width:906px) and (orientation: landscape) {
+    /*Primary Container*/
+    .sociais,.border-socais,
+    .fa-globe,.border-get,
+    .header-get-btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:920px) {
+    /*Primary Container*/
+    .sociais,.border-socais,
+    .fa-globe,.border-get,
+    .header-get-btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    /*Primary Container*/
+    .primary_container, nav {
+        display: none;
+    }
+
+  /*Menu Mobile Toggle*/
+  #btn-menu-mobile {
+    width: 38px;
+    height: 38px;
+    border: 2px solid #007bff95;
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.row-moblie {
+    width: 18px;
+    height: 2px;
+    background-color: #007bff;
+    display: block;
+    margin: 2px auto;
+    border-radius: 10px;
+    position: relative;
+    transform-origin: center;
+    transition: 0.2s;
+}
+#btn-menu-mobile.active {
+    border: 2px solid #68aef9;
+    background-color: #f5faff8a;
+}
+#btn-menu-mobile.active :hover {
+    background-color: #000;
+}
+#btn-menu-mobile.active .row-moblie:nth-child(1) {
+    transform: translatey(4px) rotate(-45deg);
+    background-color: #007bff;
+}
+#btn-menu-mobile.active .row-moblie:nth-child(3) {
+    transform: translatey(-4px) rotate(45deg);
+    background-color: #065ebc;
+}
+#btn-menu-mobile.active .row-moblie:nth-child(2) {
+    width: 0;
+    background: none;
+}
+
+}
+
+/* Small laptops 810px*/
+@media screen and (max-width:810px) {
+    html, body {
+        overflow-x: hidden;
+        overflow-y: scroll
+    }
+    
+     /*Primary Container*/
+     .sociais,.border-socais,
+     .fa-globe,.border-get,.header-get-btn {
+        display: none;
+    }
+
+    /*Main Banner*/
+    .video-container {
+        padding: 2rem 0;
+    }
+    .main-h1 h1 {
+        font-size: 35px;
+    }
+
+    /*Banner - Builderall Marketing e Mobile*/
+    .builderall-marketing {
+        display: none;
+    }
+    .builderall-mobile-marketing {
+        display: block;
+    }
+    .builderall-mobile-marketing img {
+        max-width: 100%;
+    }
+
+    /*Brands*/
+    .brands img {
+        max-width: 90%;
+    }
+    /*Start by getting your custom domain*/
+    .searchdomain-conatiner {
+        height: 30rem;
+        padding: 1rem;
+    }
+    .searchdomain-conatiner input[type="text"]  {
+        font-size: 14px;
+        width: 60%;
+    }
+
+    /*Grow Your Bussiness*/
+    .grow-your-container {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    .title-subtitle-grow h3 {
+        font-size: 35px;
+    }
+    .button-grow .get-btn {
+        width: 100%;
+    }
+    .button-grow  p {
+        justify-self: center;
+    }
+
+    /*Imagens - Grow,Easily,Powerful,Schedule,Connect,Teach,Automate*/
+    .img-containers {
+        width: 30rem;
+        text-align: center;
+    }
+
+    /*Containers - Grow,Easily,Powerful,Schedule,Connect,Teach,Automate*/
+    .easily-container, .powerful-container,
+    .schedule-appointments-container, .connect-customers-container,
+    .teach-through-container, .automate-support-container {
+        flex-direction: column-reverse;
+        gap: 1rem;
+        gap: 0;
+    }
+    .texts-container h3, h5 {
+        width: 100%
+    }
+
+    /*Join over*/
+   .get-btn-container h3 {
+        font-size: 36px;
+    }
+    .right-container img {
+        width: inherit;
+    }
+
+    /*Find the right plan for your business / Plans*/
+    .plans-container {
+        flex-wrap: wrap;
+        gap: 40px;
+       
+    }
+    .plan {
+        max-width: 44%;
+    }
+    .plan, .item_subTitle p {
+        font-size: 18px;
+    }
+
+    /*Footer*/
+    .footer-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer-links {
+        gap: 20%;
+    }
+    .sociais-contact  {
+        flex-direction: column-reverse;
+    }
+}
+
+/*Mobile 320px,375px,576px*/
+@media screen and (max-width:320px) and (max-width:375px), (max-width:576px) {
+    /*Geral*/
+    html, body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        padding-top: 46px;
+    }
+
+    /*Header*/ 
+    header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    }
+    .primary_container {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+
+    /*Menu Mobile Toggle*/
+    #btn-menu-mobile {
+        width: 38px;
+        height: 38px;
+        border: 2px solid #007bff95;
+        background: transparent;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .row-moblie {
+        width: 18px;
+        height: 2px;
+        background-color: #007bff;
+        display: block;
+        margin: 2px auto;
+        border-radius: 10px;
+        position: relative;
+        transform-origin: center;
+        transition: 0.2s;
+    }
+    #btn-menu-mobile.active {
+        border: 2px solid #68aef9;
+        background-color: #f5faff8a;
+    }
+    #btn-menu-mobile.active :hover {
+        background-color: #000;
+    }
+    #btn-menu-mobile.active .row-moblie:nth-child(1) {
+        transform: translatey(4px) rotate(-45deg);
+        background-color: #007bff;
+    }
+    #btn-menu-mobile.active .row-moblie:nth-child(3) {
+        transform: translatey(-4px) rotate(45deg);
+        background-color: #065ebc;
+    }
+    #btn-menu-mobile.active .row-moblie:nth-child(2) {
+        width: 0;
+        background: none;
+    }
+    
+    /*Main Banner*/
+    .main-h1 h1, .main-h1 {
+        font-size: 33px;
+        justify-items: center;
+        text-align: center;
+    }
+    .main-h1 h2 {
+        font-size: 16px;
+    }
+    .video-container {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    /*Start by getting your custom domain*/
+    .searchdomain-conatiner h3 {
+        font-size: 33px;
+    }
+    .searchdomain-conatiner {
+        height: 100%;
+    }
+    .searchdomain-p {
+        padding: 0;
+    }
+    .searchdomain-conatiner input[type="text"], input[type="submit"] {
+        width: 100%;
+    }
+    .searchdomain-conatiner input[placeholder] {
+        font-size: 12px;
+    }
+
+    /*Grow Your Bussiness*/
+    .grow-your-business {
+        padding: 1rem;
+    }
+
+    /*Imagens - Grow,Easily,Powerful,Schedule,Connect,Teach,Automate*/
+    .img-containers img {
+        width: 50%;
+    }
+
+    /*Títlos H3*/
+    .title-subtitle-grow h3,
+    .easily-container h3,
+    .powerful-container h3,
+    .schedule-appointments-container h3,
+    .connect-customers-container h3,
+    .teach-through-container h3,
+    .automate-support-container h3,
+    .no-more-container h3,
+    .endless-possibilities h3,
+    .better-tools h3,
+    .join-over-container h3,
+    .pricing-container h3,
+    .golive-titleand-btn h3,
+    .recommendation-container h3,
+    .build-seven-container h3,
+    .questions-container h3 {
+        font-size: 33px;
+    }
+    
+   /*No more duct-taping tools together*/
+   .no-more-container {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    /*Endless possibilities in a single dashboard*/
+    .endless-possibilities {
+        padding: 1rem;
+    }
+    .endless-possibilities li {
+        margin-right: 0;
+        padding: 0.7rem;
+    }
+    .endless-possibilities .line {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+    .endless-possibilities h5 {
+        padding: 0;
+    }
+    .endless-possibilities h5 {
+        font-size: 22px;
+        padding-bottom: 1rem;
+    }
+    .endless-possibilities .tools-btn {
+        font-size: 15px;
+        padding: 1rem;
+    }
+    
+    /* Website Templates Ready to Go Live in 3 Clicks!*/
+    .go-live {
+        padding: 1rem;
+    }
+    .golive-titleand-btn {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+        text-align: center;
+    }
+    .go-live, .img-container {
+        padding: 0.4rem;
+    }
+
+    /*Better tools, better results in your business*/
+    .better-tools {
+        padding: 2rem;
+    }
+    .better-tools,.increase-your-titleand,
+    .lower-your-titleand,.measure-optimize-titleand {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    .increase-your-titleand h3,
+    .lower-your-titleand h3,.measure-optimize-titleand h3 {
+        font-size: 22px;
+        padding: 0;
+        min-inline-size: fit-content;
+    }
+
+    /*Join over 100,000 satisfied entrepreneurs who have already discovered the benefits of using Builderall*/
+    .join-over-container, .left-right-container {
+        flex-direction: column;
+    }
+    .join-over-container .right-container img {
+        width: 50%;  
+    }
+    .join-over-container .right-container {
+        background-color: #000;
+        text-align: center;
+    }
+    .join-over-container .left-container {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    /*Find the right plan for your business / Plans*/
+    .pricing-container, .plan {
+        max-width: 100%;
+    }
+    .plan-name {
+        font-size: 32px;
+    }
+    .item_subTitle  {
+        font-size: 14px;
+    }
+
+    /*With over 100,000 happy users*/
+    .recommendation-item {
+        width: 77%;
+    }
+    .quotation-marks p {
+        font-size: 14px;
+        padding: 0 5rem;
+    }
+    .quotation-marks .markrs-left {
+        font-size: 75px;
+        right: 15rem;
+    }
+    .quotation-marks .markrs-rigth {
+        font-size: 75px;
+        left: 17rem;
+    }
+
+    /*Build 7 figure businesses*/
+    .build-seven-container {
+        padding: 1rem;
+    }
+    .build-seven-container p {
+        font-size: 16px;
+    }
+    .build-seven-item {
+        padding: 1rem;
+    }
+    .btn-cta-getmain p {
+        font-size: 12px;
+    }
+
+    .questions-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
