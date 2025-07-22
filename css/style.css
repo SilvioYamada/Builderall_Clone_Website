@@ -1540,10 +1540,66 @@ p {
 }
 
 @media only screen and (max-width: 920px) {
-  /*Primary Container*/
-  .header-get-btn,
-  .primary_container {
+ html,
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 46px;
+  }
+
+  /*Header*/
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+  }
+  .primary_container, .header-get-btn, nav{
     display: none;
+  }
+  #btn-menu-mobile {
+    display: block;
+  }
+  /*Menu Mobile Toggle*/
+  #btn-menu-mobile {
+    width: 38px;
+    height: 38px;
+    border: 2px solid #007bff95;
+    background: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .row-moblie {
+    width: 18px;
+    height: 2px;
+    background-color: #007bff;
+    display: block;
+    margin: 2px auto;
+    border-radius: 10px;
+    position: relative;
+    transform-origin: center;
+    transition: 0.2s;
+  }
+  #btn-menu-mobile.active {
+    border: 2px solid #68aef9;
+    background-color: #f5faff8a;
+  }
+  #btn-menu-mobile.active :hover {
+    background-color: #000;
+  }
+  #btn-menu-mobile.active .row-moblie:nth-child(1) {
+    transform: translatey(4px) rotate(-45deg);
+    background-color: #007bff;
+  }
+  #btn-menu-mobile.active .row-moblie:nth-child(3) {
+    transform: translatey(-4px) rotate(45deg);
+    background-color: #065ebc;
+  }
+  #btn-menu-mobile.active .row-moblie:nth-child(2) {
+    width: 0;
+    background: none;
   }
 }
 
@@ -1553,26 +1609,13 @@ p {
   nav {
     display: none;
   }
-  .primary_container {
-    display: none;
-  }
   #btn-menu-mobile {
     display: block;
   }
 }
 
 /* Small laptops 810px*/
-@media screen and (max-width: 910px) {
-  html,
-  body {
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-
-  /*Primary Container*/
-  .primary_container {
-    display: none;
-  }
+@media screen and (max-width: 810px) {
 
   /*Main Banner*/
   .video-container {
