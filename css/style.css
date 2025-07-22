@@ -1540,7 +1540,7 @@ p {
 }
 
 @media only screen and (max-width: 920px) {
- html,
+  html,
   body {
     overflow-x: hidden;
     overflow-y: scroll;
@@ -1556,12 +1556,20 @@ p {
     height: 50px;
     z-index: 10;
   }
-  .primary_container, .header-get-btn, nav{
+  .primary_container,
+  .header-get-btn,
+  nav {
     display: none;
   }
+
+  .main-h1 h1 {
+    font-size: 35px;
+  }
+
   #btn-menu-mobile {
     display: block;
   }
+  
   /*Menu Mobile Toggle*/
   #btn-menu-mobile {
     width: 38px;
@@ -1616,7 +1624,6 @@ p {
 
 /* Small laptops 810px*/
 @media screen and (max-width: 810px) {
-
   /*Main Banner*/
   .video-container {
     padding: 2rem 0;
