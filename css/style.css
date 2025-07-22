@@ -1556,6 +1556,9 @@ p {
   nav {
     display: none;
   }
+  .primary_container {
+    display: none;
+  }
   #btn-menu-mobile {
     display: block;
   }
