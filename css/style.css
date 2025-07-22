@@ -101,6 +101,7 @@ p {
   line-height: 26px;
   justify-content: center;
   margin-inline: 1rem;
+  align-content: center;
 }
 .getsupport-btn,
 .login-btn,
