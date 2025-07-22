@@ -1541,6 +1541,7 @@ p {
 
 @media only screen and (max-width: 920px) {
   /*Primary Container*/
+  .header-get-btn,
   .primary_container {
     display: none;
   }
