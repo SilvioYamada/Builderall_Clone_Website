@@ -6,7 +6,7 @@ function animationMenu() {
   btnMenu.classList.toggle("active");
 }
 
-const video = document.getElementById("#video");
+const video = document.getElementById("video");
 
 video.addEventListener("mouseout", () => {
   video.removeAttribute("controls", "controls");
